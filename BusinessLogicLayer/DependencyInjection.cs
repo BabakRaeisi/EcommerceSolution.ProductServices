@@ -14,7 +14,7 @@ public static class DependencyInjection
         // Register your data access layer services here
         // For example:
         // services.AddScoped<IYourRepository, YourRepository>();
-        services.AddAutoMapper(typeof(ProductAddRequestToProductMappingProfile).Assembly);
+        services.AddAutoMapper(typeof(ProductAddRequestToProductMappingProfile).Assembly);      
         services.AddValidatorsFromAssemblyContaining<ProductAddRequestValidator>();
         services.AddScoped<IProductService, ProductService>();
         return services;

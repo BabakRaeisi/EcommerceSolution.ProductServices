@@ -1,7 +1,4 @@
-﻿
-
-using DataAccessLayer.Entities;
- 
+﻿using DataAccessLayer.Entities; 
 using System.Linq.Expressions;
 
 namespace DataAccessLayer.RepositoryContracts;
